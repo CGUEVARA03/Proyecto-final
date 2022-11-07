@@ -1,0 +1,9 @@
+Braintest es un juego educativo en desarrollo para poner 
+en practica los conocimientos de los niños en diferentes puntos de aprendizaje en la rama de la matematica
+hay 3 opciones de juego y un mini juego 
+cada opcion de juego tanto SUMA, RESTA y MULTIPLICAR, cuenta con preguntas (aun en desarrollo)
+con 5 posibles respuestas cada una
+
+el mini juego consite en que el alumno escriba el numero solicitado y la plataforma le dira si es o no la respuesta correcta 
+
+espero disfrutes de nuestro pequeño proyecto beta amos a jugar 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAINTEST</title>
+    <script src="base-preguntasmulti.js"></script>
+    <script defer src="respuestas-multi.js"></script>
+    <script></script>
+</head>
+
+<body>
+ <style>
+    *{
+        transition: all 0.25;
+
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: url(https://w0.peakpx.com/wallpaper/655/248/HD-wallpaper-alien-fondo-rosado-alienigena-rosa-ovni.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-size: 150%;
+
+    }
+
+ #ENCABEZADO {
+width: 70vw;
+min-height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: whitesmoke;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+
+}
+.OP1{
+    width: 70vw;
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+cursor: pointer;
+}
+.OP1:hover{
+    background: lightgray 
+
+}
+
+ </style>   
+ <div id="TABLERO RUSO">
+    <div id="ENCABEZADO">
+       
+        <span id="pregunta"></span>
+        <br>
+        <img src="" alt="">
+
+    </div>
+    <div class="OP1" id="OP1" onclick="selecionarOP1(0)">
+        OP1
+    </div>
+    <div class="OP1" id="OP2" onclick="selecionarOP1(1)">
+        OP2
+    </div>
+    <div class="OP1" id="OP3" onclick="selecionarOP1(2)">
+        OP3
+    </div>
+    <div class="OP1" id="OP4" onclick="selecionarOP1(3)">
+        OP4
+    </div>
+
+    <div class="OP1" id="OP5" onclick="selecionarOP1(4)">
+        OP5
+        
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="C:\Users\USUARIO\Desktop\Proyecto final-1\MULTIPLICACIONES\base-preguntasmulti.js">NEXT</a>
+      </div>
+ </div>
+</body>
+</html>

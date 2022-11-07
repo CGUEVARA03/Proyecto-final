@@ -1,0 +1,46 @@
+
+*{
+    transition: all 0.25s;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: steelblue;
+    background-image: url(https://i.ibb.co/FqznfxV/1ce63f9442ec9c7391c6d5e569d08cff.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+
+#ENCABEZADO {
+width: 80vw;
+min-height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: white;
+padding: 10px;
+margin: 10px;
+border-radius: 10px;
+
+}
+.Opcion{
+width: 70vw;
+background: white;
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+cursor: pointer;
+}
+.Opcion:hover{
+background: lightgray 
+
+}
+
