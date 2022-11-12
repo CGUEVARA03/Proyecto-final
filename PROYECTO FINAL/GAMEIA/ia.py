@@ -2,6 +2,7 @@
 import tensorflow as tf
 import tensorflow_datasets as tfds
 
+
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,6 +10,12 @@ import logging
 
 from urllib import parse
 from http.server import HTTPServer, BaseHTTPRequestHandler
+from flask import Flask, render_templates, request, redirect
+
+app = Flask(__name__)
+@app.route('/')
+def MENU():
+    return render_templates('pages/MENU.html')
 
 logger = tf.get_logger()
 
